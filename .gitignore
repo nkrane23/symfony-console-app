@@ -1,0 +1,42 @@
+# Existing #
+/desktop.ini
+/.htaccess
+/.git/
+.externalToolBuilders
+/.idea/
+error_log
+*.ftpquota
+.htaccess
+/node_modules/
+robots.txt
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+ 
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# WordPress #
+######################
+.idea/
+###> symfony/framework-bundle ###
+.env
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
